@@ -39,3 +39,28 @@ footer {
     margin: 0 6px;
 }
 
+h1{
+    padding-top: 5rem;
+    padding-bottom: 10px;
+    font-size: 60px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+#galeria .col-lg-4{
+    margin: 0;
+    padding: 25px;
+}
+
+#galeria img{
+    width: 100%;
+    height: 250px;  
+    object-fit: cover;
+    box-shadow: 5px 5px;
+    border: 1px solid black;
+}
+
+
