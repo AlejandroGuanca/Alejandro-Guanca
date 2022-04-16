@@ -167,6 +167,15 @@ h2{
     overflow: hidden;
 }
 
+.carousel-item .caoruse-caption .a{
+    text-decoration: none;
+}
+#section4{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 2rem;
+}
+
 @keyframes typing{
     from {width: 0}
 }
