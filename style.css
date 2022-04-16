@@ -138,3 +138,38 @@ h2{
     text-align: left;
     font-size: 30px;
 }
+
+.historiaMain{
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+
+.imgH{
+    width: 600px;
+    box-shadow: 5px 5px;
+    border: 1px solid black;
+}
+.items{
+    padding-top: 2rem;
+}
+.historiaparrafo{
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: left;
+}
+
+.txtmaquina{
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 32ch;
+    animation: typing 2s steps(36), blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+
+@keyframes typing{
+    from {width: 0}
+}
+@keyframes blink {
+    50% {border-color: transparent;}
+}
