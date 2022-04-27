@@ -1,0 +1,142 @@
+@import "layout";
+@import "variables";
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: $color-body;
+    /*background-image: linear-gradient($prueba);*/
+}
+
+.header-main{
+    min-height: 100vh;
+    .imagenInicio{
+        box-shadow: 5px 5px;
+        border: $borde;
+    }
+}
+h1{
+    padding-top: 5rem;
+    padding-bottom: 10px;
+    font-size: 60px;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+/*
+.span a{
+    text-decoration: none;
+}
+
+.span{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    box-shadow: 5px 5px;
+    border: 1px solid black;
+
+}
+*/
+/*galeria*/
+#galeria .col-lg-4{
+    margin: 0;
+    padding: 25px;
+    .imgcanciones{
+        width: 100%;
+        height: 250px;  
+        object-fit: cover;
+        box-shadow: 5px 5px;
+        border: $borde;
+    }
+}
+/* canciones*/
+
+#canciones .col-lg-4{
+    margin: 0;
+    padding: 25px;
+    .img3disco{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        box-shadow: 5px 5px;
+        border: $borde;
+
+    }
+    .cancionespp{
+        padding-top: 1rem;
+        font-size: 15PX;
+    }
+    .cancionesP{
+        font-size: 30px;
+        font-family: $fuente;
+    }
+}
+/*section 2 de albumes*/
+#canciones2 .col-lg-3{
+    margin: 0%;
+    padding: 25px;
+    img{
+        width: 100%;
+        height: 500px;  
+        object-fit: cover;
+        box-shadow: 5px 5px;
+        border: $borde;
+    }
+    .parrafocanciones{
+        padding-top: 1rem;
+        font-size: 15px;
+        font-family: $fuente;
+    }
+}
+/* botones */
+.btn{
+    min-width: 100%;
+    text-decoration: none;
+    border: $borde;
+    &:hover{
+        box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+    }
+}
+ /* section 3 spotify */
+#section3{
+    background-image: linear-gradient();
+    h2{
+        font-family: $fuente;
+    }
+    .circleparrafo{
+        font-family: 'Updock';
+        padding: 1px 1px 1px 1px;
+        text-align: left;
+        font-size: 30px;
+    }
+    .spotifyCol{
+        border: $borde;
+    }
+}
+/* carrusel*/
+.carousel-item .a{
+    text-decoration: none;
+}
+#section4{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 2rem;
+}
+.h1{
+    font-family: $fuente;
+}
+/*historia */
+#historiaP{
+    font-size: 20px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+#imgh1{
+    width: 600px;
+    box-shadow: 5px 5px;
+    border: $borde;
+}
