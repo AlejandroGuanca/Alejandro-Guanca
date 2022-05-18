@@ -20,33 +20,6 @@ footer .redes-sociales a {
   border: 1px solid black;
 }
 
-.verde, .rojo, .amarillo {
-  background-color: green;
-  border: none;
-  margin-top: 5rem;
-  padding: 15px 30px;
-  text-align: center;
-  font-size: 22px;
-  cursor: pointer;
-  box-shadow: 5px 2px 10px #000;
-}
-
-.amarillo {
-  background-color: yellow;
-}
-
-.rojo {
-  background-color: red;
-}
-
-.foto1, .foto2, .foto3 {
-  width: 100%;
-  height: 500px;
-  object-fit: cover;
-  box-shadow: 5px 5px;
-  border: 1px solid black;
-}
-
 * {
   margin: 0%;
   padding: 0%;
@@ -77,20 +50,6 @@ p {
   text-align: center;
 }
 
-/*
-.span a{
-    text-decoration: none;
-}
-
-.span{
-    display: flex;
-    font-size: 20px;
-    justify-content: center;
-    box-shadow: 5px 5px;
-    border: 1px solid black;
-
-}
-*/
 /*galeria*/
 #galeria .col-lg-4 {
   margin: 0;
@@ -123,6 +82,11 @@ p {
 #canciones .col-lg-4 .cancionesP {
   font-size: 30px;
   font-family: "Anton", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 /*section 2 de albumes*/
